@@ -66,3 +66,5 @@
 /Users/xjyg43q/Development/DotNet/CosmosConnectionPerfTest/CosmosOperations/obj/Release/net6.0/CosmosOperations.pdb
 /Users/xjyg43q/Development/DotNet/CosmosConnectionPerfTest/CosmosOperations/obj/Release/net6.0/CosmosOperations.genruntimeconfig.cache
 /Users/xjyg43q/Development/DotNet/CosmosConnectionPerfTest/CosmosOperations/obj/Release/net6.0/ref/CosmosOperations.dll
+/Users/xjyg43q/Development/DotNet/CosmosConnectionPerfTest/CosmosOperations/bin/Release/net6.0/appsettings.local.json
+/Users/xjyg43q/Development/DotNet/CosmosConnectionPerfTest/CosmosOperations/bin/Release/net6.0/appsettings.dev.json

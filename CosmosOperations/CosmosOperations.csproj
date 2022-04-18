@@ -16,6 +16,9 @@
     <None Include="appsettings.local.json" CopyToPublishDirectory="Always">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="appsettings.dev.json" CopyToPublishDirectory="Always">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
