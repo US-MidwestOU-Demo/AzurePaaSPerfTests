@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/xjyg43q/Development/DotNet/CosmosConnectionPerfTest/CosmosOperations/CosmosOperations.csproj": {}
+  },
+  "projects": {
+    "/Users/xjyg43q/Development/DotNet/CosmosConnectionPerfTest/CosmosOperations/CosmosOperations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/xjyg43q/Development/DotNet/CosmosConnectionPerfTest/CosmosOperations/CosmosOperations.csproj",
+        "projectName": "CosmosOperations",
+        "projectPath": "/Users/xjyg43q/Development/DotNet/CosmosConnectionPerfTest/CosmosOperations/CosmosOperations.csproj",
+        "packagesPath": "/Users/xjyg43q/.nuget/packages/",
+        "outputPath": "/Users/xjyg43q/Development/DotNet/CosmosConnectionPerfTest/CosmosOperations/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/xjyg43q/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.26.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
