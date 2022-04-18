@@ -73,16 +73,13 @@ namespace CosmosOperations.DataAccess
 
                     return response.Diagnostics.GetClientElapsedTime().Milliseconds;
                 }
-                else
-                {
-                    throw new NullReferenceException("Container object is null");
-                }
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                throw ex;
             }
+
+            return -1;
         }
 
         public async Task<long> CreateSingleItem(T item)
@@ -101,16 +98,13 @@ namespace CosmosOperations.DataAccess
 
                     return response.Diagnostics.GetClientElapsedTime().Milliseconds;
                 }
-                else
-                {
-                    throw new NullReferenceException("Container or Database object was null");
-                }
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                throw ex;
             }
+
+            return -1;
         }
 
         public async Task<long> DeleteSingleItem(Guid id, String accountNumber)
@@ -128,16 +122,13 @@ namespace CosmosOperations.DataAccess
 
                     return response.Diagnostics.GetClientElapsedTime().Milliseconds;
                 }
-                else
-                {
-                    throw new NullReferenceException("Container or Database object was null");
-                }
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                throw ex;
             }
+
+            return -1;
         }
     }
 }
